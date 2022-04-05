@@ -522,6 +522,10 @@ p {
   color: var(--grey-color);
 }
 
+.footer {
+  margin-top: 4rem;
+}
+
 .home {
   background-color: var(--first-color);
 }
