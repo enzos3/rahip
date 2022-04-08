@@ -22,66 +22,100 @@
   <section class="contact-header">
     <h2>BRIEF</h2>
     <h3>¿QUÉ ES UN BRIEF?</h3>
-    <h4><i>El "brief" (también conocido como "briefing") es una encuesta que se desarrolla con el objetivo de recopilar
-        la informacion necesaria por el diseñador con el objetivo de desarrollar un trabajo creativo. Suele ser,
-        frecuentemente, utilizado en el rubro del desarrollo de identidades de marca como también en otras áreas
-        creativas.</h4>
+    <p>El "brief" (también conocido como "briefing") es una encuesta que se desarrolla con el objetivo de recopilar
+      la informacion necesaria por el diseñador con el objetivo de desarrollar un trabajo creativo. Suele ser,
+      frecuentemente, utilizado en el rubro del desarrollo de identidades de marca como también en otras áreas
+      creativas.</p>
     </p>
   </section>
   <form target="_blank" class="contact-form box-shadow-1">
     <section>
       <h2>INFORMACIÓN DEL CLIENTE</h2>
     </section>
-    <input type="text" name="empresaname" placeholder="Nombre de la empresa/producto"
+    <input type="text" name="Nombre de la empresa/producto" placeholder="Nombre de la empresa/producto"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="name" placeholder="Nombre de la persona"
+    <input type="text" name="Nombre de la persona" placeholder="Nombre de la persona"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="number" name="dni" placeholder="DNI" title="Numero incorrecto"
+    <input type="number" name="DNI" placeholder="DNI" title="Numero incorrecto"
       pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
-    <input type="number" name="contact-number" placeholder="Número de contacto" title="Numero incorrecto"
+    <input type="number" name="Numero de contacto" placeholder="Número de contacto" title="Numero incorrecto"
       pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
-    <input type="email" name="email" placeholder="Correo" title="Correo incorrecto"
+    <input type="email" name="Correo" placeholder="Correo" title="Correo incorrecto"
       pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
     <section class="contact-section">
       <h2>EMPRESA Y FILOSOFÍA</h2>
-      <h3><i><b>A continuación se desarrolla una serie de preguntas referidas ala empresa o producto a trabajar.</b></i>
-      </h3>
+      <p><b>A continuación se desarrolla una serie de preguntas referidas ala empresa o producto a trabajar.</b>
+      </p>
     </section>
-    <input type="text" name="historyempresa" placeholder="Historia de la empresa"
+    <input type="text" name="Historia de la empresa" placeholder="Historia de la empresa"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="shortobjetives" placeholder="Objetivos a corto plazo"
+    <input type="text" name="Objetivos a corto plazo" placeholder="Objetivos a corto plazo"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="longobjetives" placeholder="Objetivos a largo plazo"
+    <input type="text" name="Objetivos a largo plazo" placeholder="Objetivos a largo plazo"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="product-services" placeholder="Describa sus productos / servicios"
+    <input type="text" name="Describa sus productos/servicios" placeholder="Describa sus productos / servicios"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="adjetive" placeholder="Si su empresa fuera una persona, ¿qué adjetivo le daría?"
+    <input type="text" name="Si su empresa fuera una persona, ¿que adjetivo le daria?"
+      placeholder="Si su empresa fuera una persona, ¿qué adjetivo le daría?"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
     <section class="contact-section">
       <h2>PÚBLICO OBJETIVO</h2>
-      <h3><i><b>A continuación se desarrolla una serie de preguntas referidas al público objetivo de la empresa /
-            producto.</b></i></h3>
+      <p><b>A continuación se desarrolla una serie de preguntas referidas al público objetivo de la empresa /
+          producto.</b></p>
     </section>
-    <input type="number" name="public-group"
-      placeholder="¿A qué grupo, en años, corresponde tu público objetivo? (Ingrese numero del 0 al 5)"
-      title="Numero incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
-    <input type="text" name="invest" placeholder="¿Porqué crees que invertirían en tu empresa / producto?"
+    <h3>¿A qué grupo corresponde tu público objetivo?</h3>
+    <div>
+      <input type="checkbox" name="0-a-5">
+      <label for="0-a-5">0 a 5 años</label>
+    </div>
+    <div>
+      <input type="checkbox" name="5-a-13">
+      <label for="0-a-5">5 a 13 años</label>
+    </div>
+    <div>
+      <input type="checkbox" name="14-a-17">
+      <label for="0-a-5">14 a 17 años</label>
+    </div>
+    <div>
+      <input type="checkbox" name="18-a-22">
+      <label for="0-a-5">18 a 22 años</label>
+    </div>
+    <div>
+      <input type="checkbox" name="23-a-35">
+      <label for="0-a-5">23 a 35 años</label>
+    </div>
+    <div>
+      <input type="checkbox" name="36-a-50">
+      <label for="0-a-5">36 a 50 años</label>
+    </div>
+    <div>
+      <input type="checkbox" name="50-a-70">
+      <label for="0-a-5">50 a 70 años</label>
+    </div>
+    <div>
+      <input type="checkbox" name="70-en-adelante">
+      <label for="0-a-5">70 en adelante</label>
+    </div>
+    <input type="text" name="¿Porque crees que invertirian en tu empresa / producto?"
+      placeholder="¿Porqué crees que invertirían en tu empresa / producto?"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
     <section class="contact-section">
       <h2>COMPETENCIA Y SECTOR</h2>
-      <h3><i><b>A continuación se desarrolla una serie de preguntas referidas a su competencia y/o empresas que
-            admira.</b></i></h3>
+      <p><b>A continuación se desarrolla una serie de preguntas referidas a su competencia y/o empresas que
+          admira.</b></p>
     </section>
-    <input type="text" name="admire-empresa"
+    <input type="text" name="A nivel general, nombrar empresas que admire"
       placeholder="A nivel general (provincial, etc.) nombrar empresas que admire"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="direct-rival" placeholder="Nombre su competencia directa"
+    <input type="text" name="Nombre su competencia directa" placeholder="Nombre su competencia directa"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="adventage" placeholder="Ventajas que posea frente a su competencia"
-      title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-    <input type="text" name="disadventage" placeholder="Desventajas que posea frente a su competencia"
+    <input type="text" name="Ventajas que posea frente a su competencia"
+      placeholder="Ventajas que posea frente a su competencia" title="El nombre sólo acepta letras y espacios en blanco"
+      pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+    <input type="text" name="Desventajas que posea frente a su competencia"
+      placeholder="Desventajas que posea frente a su competencia"
       title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
 
     <section class="contact-section">
@@ -138,11 +172,7 @@
   </section>
   <footer class="footer">
     <a class="icon1" href="rahip.estudio@gmail.com">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
-        viewBox="0 0 16 16">
-        <path
-          d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-      </svg>
+      rahip.estudio@gmail.com
     </a>
     <a class="icon2" href="https://wa.me/message/ORK7PSXDGXURA1">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
@@ -158,7 +188,7 @@
           d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
       </svg>
     </a>
-    <a class="icon4" href="https://www.linkedin.com/feed/">
+    <a class="icon4" href="https://www.linkedin.com/in/lucas-g-di-rocco-licenciado-en-dise%C3%B1o-4021a0217/">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
         viewBox="0 0 16 16">
         <path

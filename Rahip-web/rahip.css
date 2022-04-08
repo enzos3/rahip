@@ -763,6 +763,7 @@ p {
   }
 
   .contact-header p {
+    margin: 0 25vw;
     color: var(--grey-color);
     font-size: 0.7rem;
   }
@@ -776,10 +777,16 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 2.5rem;
-    margin-top: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
     padding-top: 1rem;
     background-color: var(--second-color);
+  }
+
+  .footer a {
+    color: var(--first-color);
+    font-size: small;
+    text-decoration: none;
   }
 
   .footer svg {
