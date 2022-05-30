@@ -9,6 +9,7 @@
   <title>RAHIP Estudio Creativo</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="rahip.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <script src="scripts/include-html.js"></script>
   <meta name="description" content="RAHIP - Estudio Creativo">
   <link rel="canonical" href="https://enzos3.github.io/rahip">
@@ -24,78 +25,488 @@
 </head>
 
 <body>
+  <!-- Header Section Start -->
   <header class="header">
     <section class="container">
-      <div class="logo">
-        <a href="index.html">
-          <img src="assets/multimedia/rahip_logo.png" alt="">
-        </a>
-      </div>
-      <button class="menu-btn html-menu">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
-        </svg>
-        <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path
-            d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
-        </svg>
-      </button>
-      <nav class="menu html-include">
-        <a href="htmls/quienes-somos.html">acerca</a>
-        <a href="htmls/brief.html">brief</a>
-        <a href="htmls/portfolio.html">portafolio</a>
-        <a href="htmls/calificanos.html">calificanos</a>
-      </nav>
+      <ul class="nav">
+        <li><a href="#home" class="active">rahip</a></li>
+        <li><a href="#about">acerca</a></li>
+        <li><a href="#brief">brief</a></li>
+        <li><a href="#portafolio">portafolio</a></li>
+        <li><a href="#calificanos">calificanos</a></li>
+      </ul>
     </section>
   </header>
-  <div data-include="htmls/header.html"></div>
-  <main>
-    <div class="home-index-title">
+  <!-- Header Section End -->
+  <!-- Home Section Start -->
+  <div class="home-index-title active section" id="home">
+    <div class="container">
       <h1>Bienvenidos a</h1>
+      <div class="first-page padd-15">
+        <article class="image-item">
+          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 878.4 327.7" style="enable-background:new 0 0 878.4 327.7;"
+            xml:space="preserve">
+            <g>
+              <g>
+                <g>
+                  <g>
+                    <polygon class="st0" points="556.7,68.5 652.9,68.5 628.8,260.8 580.7,260.8 				" />
+                  </g>
+                </g>
+                <path class="st0" d="M78.6,75.6c11.1-4.7,23.9-7,38.3-7V119c-6.1-0.5-10.2-0.7-12.2-0.7c-15.6,0-27.9,4.4-36.8,13.1
+          			s-13.3,21.9-13.3,39.4v88.9H0V71.4h52.2v24.9C58.7,87.2,67.5,80.3,78.6,75.6z" />
+                <path class="st0" d="M291.6,89.4c15.6,13.9,23.5,34.8,23.5,62.8v107.5H264v-23.5c-10.3,17.5-29.4,26.3-57.4,26.3
+          			c-14.5,0-27-2.5-37.6-7.4s-18.7-11.7-24.3-20.3c-5.6-8.6-8.4-18.4-8.4-29.4c0-17.5,6.6-31.3,19.8-41.3
+          			c13.2-10,33.6-15.1,61.1-15.1h43.4c0-11.9-3.6-21.1-10.9-27.5c-7.2-6.4-18.1-9.6-32.6-9.6c-10,0-19.9,1.6-29.6,4.7
+          			c-9.7,3.2-17.9,7.4-24.7,12.8l-19.6-38.2c10.3-7.2,22.6-12.8,36.9-16.8c14.4-4,29.1-5.9,44.3-5.9C253.6,68.6,276,75.6,291.6,89.4z
+          			 M245.1,219.3c7.2-4.3,12.4-10.7,15.4-19.1V181H223c-22.4,0-33.6,7.4-33.6,22.1c0,7,2.7,12.6,8.2,16.6c5.5,4.1,13,6.1,22.6,6.1
+          			C229.5,225.8,237.8,223.6,245.1,219.3z" />
+                <path class="st0" d="M516.2,89.6c14.3,14,21.5,34.8,21.5,62.3v107.8h-54.6v-99.4c0-14.9-3.3-26.1-9.8-33.4c-6.5-7.3-16-11-28.4-11
+          			c-13.8,0-24.7,4.3-32.9,12.8c-8.2,8.5-12.2,21.2-12.2,38v93.1h-54.6V0h54.6v91c7.2-7.2,16-12.8,26.2-16.6s21.5-5.8,33.6-5.8
+          			C483,68.6,501.9,75.6,516.2,89.6z" />
+                <path class="st0" d="M832.4,80.7c14.3,8.1,25.6,19.4,33.8,34c8.2,14.6,12.2,31.6,12.2,50.9s-4.1,36.4-12.2,50.9
+          			c-8.2,14.6-19.4,25.9-33.8,34c-14.3,8-30.3,12.1-47.8,12.1c-24,0-43-7.6-56.7-22.8v87.9h-54.6V71.4h52.2v21.7
+          			c13.5-16.3,33.3-24.5,59.2-24.5C802.1,68.6,818,72.6,832.4,80.7z M809.6,203.6c9-9.4,13.5-22.1,13.5-38s-4.5-28.5-13.5-38
+          			c-9-9.5-20.5-14.2-34.5-14.2c-14,0-25.5,4.7-34.5,14.2c-9,9.4-13.5,22.1-13.5,38s4.5,28.5,13.5,38c9,9.5,20.5,14.2,34.5,14.2
+          			C789.1,217.8,800.6,213,809.6,203.6z" />
+              </g>
+            </g>
+          </svg>
+        </article>
+        <article class="image-logo">
+          <img src="assets/multimedia/muñeco_guiño.index.svg" alt="muñeco_guiño">
+        </article>
+      </div>
     </div>
-    <div class="first-page">
-      <article class="image-item">
-        <img src="assets/multimedia/rahip_logo.svg" alt="rahip_logo">
-      </article>
-      <article class="image-item">
-        <img src="assets/multimedia/muñeco_guiño.index.svg" alt="muñeco_guiño">
-      </article>
+  </div>
+  <!-- Home Section End -->
+  <!-- Acerca Section Start -->
+  <section class="about section" id="about">
+    <div class="card">
+      <div class="card-content">
+        <h2 class="card-title">¿Quienes somos?</h2>
+        <p class="card-body">Somos una empresa que se dedica a la producción y desarrollo de materiales creativos. Nos
+          especializamos en el
+          desarrollo de identidades de marca y su respectivo acompañamiento en su desarrollo como empresa.Nos enfocamos
+          principalmente en las pequeñas empresas o PYMES que buscan lograr encontrar un espacio de competencia frente a
+          los
+          grandes comercios. Nosotros nos comprometemos a ayudarlos en el manejo creativo de su empresa. Además, nuestra
+          atención,
+          trabajo, desarrollo y entrega de proyectos y/o trabajo final es completamente online. Ya que nuestra prioridad
+          también
+          es la comodidad del cliente. Contamos con la formación para ayudarlo.</p>
+        <h2 class="card-subtitle">¿Porque RAHIP?</h2>
+        <p class="card-body2">Todo comenzó por el año 2017 cuando un estudiante del profesora de inglés comenzó a dudar
+          frente a su futuro como
+          profesional del área de inglés frente a su disgusto en el área profesional desarrollada en su materia de las
+          "prácticas
+          profesionalizantes". De esta forma el estudiante se plantea la necesidad de cambiar. Cabe mencionar que el
+          mismo
+          desarrollaba tareas que tenían que ver con el rubro pastoral (para la fe católica), así fue que la primera
+          persona en
+          enterarse de estudiante malestar personal fue el sacerdote. Este evento se dió en el marco del campamento
+          parroquial
+          (las imágenes presentadas corresponden al lugar donde se desarrolló el mismo). De esta forma el sacerdote fue
+          quien
+          acompaño durante varios meses en el principal disernimiento en vista de modificar su rumbo. Así fue que en
+          Febrero del
+          2018 rinde el examen pre-universitario para la carrera de diseño gráfico. Pero entonces ¿qué es RAHIP? RAHIP
+          surge como
+          parte de esta historia en una combinación de conceptos. Por un lado, se tomó el concepto del idioma extranjero
+          que
+          estudiaba previamente (el cual era el profesorado de inglés); por otro lado el origen del apellido de la
+          persona que lo
+          ayudó (el mismo es de origen turco, ya que el nombre del sacerdote es "Mauricio Haddad") y por último la
+          profesión de
+          este último mencionado. Por eso RAHIP en turco significa "sacerdote". ¿Y quien es el muñeco? El muñeco es una
+          representación que se dió reemplazando a la letra "i" del nombre donde se pretende representar al diseñador
+          como un cubo
+          que era como se encontraba ante la disyuntiva de no saber que hacer con su carrera y el mismo fue acotado por
+          este
+          sacerdote.</p>
+      </div>
     </div>
-  </main>
-  <footer class="footer">
-    <a class="icon1" href="mailto:rahip.estudio@gmail.com">
-      rahip.estudio@gmail.com
-    </a>
-    <a class="icon2" href="https://wa.me/message/ORK7PSXDGXURA1">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
-        viewBox="0 0 16 16">
-        <path
-          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-      </svg>
-    </a>
-    <a class="icon3" href="https://www.instagram.com/rahip.estudio/">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
-        viewBox="0 0 16 16">
-        <path
-          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-      </svg>
-    </a>
-    <a class="icon4" href="https://www.linkedin.com/in/lucas-g-di-rocco-licenciado-en-dise%C3%B1o-4021a0217/">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
-        viewBox="0 0 16 16">
-        <path
-          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-      </svg>
-    </a>
-    <a class="icon5" href="https://www.behance.net/rahip_estudio">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-behance"
-        viewBox="0 0 16 16">
-        <path
-          d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391.286.176.497.426.641.747.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922.281.426.461.957.461 1.563 0 .496-.105.922-.285 1.278a2.317 2.317 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.329 5.329 0 0 1-1.278.176L0 12.803V3h4.654zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a.981.981 0 0 0-.32-.355 1.84 1.84 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305v.005zm6.858-.035c.286.285.711.426 1.278.426.39 0 .746-.106 1.032-.286.285-.215.46-.426.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.135 4.135 0 0 1-1.527-.285 2.827 2.827 0 0 1-1.137-.782 2.851 2.851 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4.018 4.018 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396zm2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176-.215.105-.356.25-.496.39a.957.957 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978v-.957z" />
-      </svg>
-    </a>
-  </footer>
+  </section>
+  <!-- Acerca Section End -->
+  <!-- Brief Section Start -->
+  <section class="brief section" id="brief">
+    <div class="container">
+      <section class="contact-form">
+
+        <h2>BRIEF</h2>
+        <h3>¿QUÉ ES UN BRIEF?</h3>
+        <p>El "brief" (también conocido como "briefing") es una encuesta que se desarrolla con el objetivo de recopilar
+          la informacion necesaria por el diseñador con el objetivo de desarrollar un trabajo creativo. Suele ser,
+          frecuentemente, utilizado en el rubro del desarrollo de identidades de marca como también en otras áreas
+          creativas.</p>
+        </p>
+        <form target="_blank" class="contact-form box-shadow-1">
+          <section>
+            <h2>INFORMACIÓN DEL CLIENTE</h2>
+          </section>
+          <input type="text" name="Nombre de la empresa/producto" placeholder="Nombre de la empresa/producto"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Nombre de la persona" placeholder="Nombre de la persona"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="number" name="DNI" placeholder="DNI" title="Numero incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+          <input type="number" name="Numero de contacto" placeholder="Número de contacto" title="Numero incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+          <input type="email" name="Correo" placeholder="Correo" title="Correo incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+          <section class="contact-section">
+            <h2>EMPRESA Y FILOSOFÍA</h2>
+            <p><b>A continuación se desarrolla una serie de preguntas referidas ala empresa o producto a trabajar.</b>
+            </p>
+          </section>
+          <input type="text" name="Historia de la empresa" placeholder="Historia de la empresa"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Objetivos a corto plazo" placeholder="Objetivos a corto plazo"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Objetivos a largo plazo" placeholder="Objetivos a largo plazo"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Describa sus productos/servicios" placeholder="Describa sus productos / servicios"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Si su empresa fuera una persona, ¿que adjetivo le daria?"
+            placeholder="Si su empresa fuera una persona, ¿qué adjetivo le daría?"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+
+          <section class="contact-section">
+            <h2>PÚBLICO OBJETIVO</h2>
+            <p><b>A continuación se desarrolla una serie de preguntas referidas al público objetivo de la empresa /
+                producto.</b></p>
+          </section>
+          <h3>¿A qué grupo corresponde tu público objetivo?</h3>
+          <div>
+            <input type="checkbox" name="0-a-5">
+            <label for="0-a-5">0 a 5 años</label>
+          </div>
+          <div>
+            <input type="checkbox" name="5-a-13">
+            <label for="0-a-5">5 a 13 años</label>
+          </div>
+          <div>
+            <input type="checkbox" name="14-a-17">
+            <label for="0-a-5">14 a 17 años</label>
+          </div>
+          <div>
+            <input type="checkbox" name="18-a-22">
+            <label for="0-a-5">18 a 22 años</label>
+          </div>
+          <div>
+            <input type="checkbox" name="23-a-35">
+            <label for="0-a-5">23 a 35 años</label>
+          </div>
+          <div>
+            <input type="checkbox" name="36-a-50">
+            <label for="0-a-5">36 a 50 años</label>
+          </div>
+          <div>
+            <input type="checkbox" name="50-a-70">
+            <label for="0-a-5">50 a 70 años</label>
+          </div>
+          <div>
+            <input type="checkbox" name="70-en-adelante">
+            <label for="0-a-5">70 en adelante</label>
+          </div>
+          <input type="text" name="¿Porque crees que invertirian en tu empresa / producto?"
+            placeholder="¿Porqué crees que invertirían en tu empresa / producto?"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+
+          <section class="contact-section">
+            <h2>COMPETENCIA Y SECTOR</h2>
+            <p><b>A continuación se desarrolla una serie de preguntas referidas a su competencia y/o empresas que
+                admira.</b></p>
+          </section>
+          <input type="text" name="A nivel general, nombrar empresas que admire"
+            placeholder="A nivel general (provincial, etc.) nombrar empresas que admire"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Nombre su competencia directa" placeholder="Nombre su competencia directa"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Ventajas que posea frente a su competencia"
+            placeholder="Ventajas que posea frente a su competencia"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+          <input type="text" name="Desventajas que posea frente a su competencia"
+            placeholder="Desventajas que posea frente a su competencia"
+            title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+
+          <section class="contact-section">
+            <h2><b>¡MUCHAS GRACIAS POR SUS RESPUESTAS Y SU TIEMPO! <br> EN BREVE ESTAREMOS COMUNICÁNDONOS CON USTED</b>
+            </h2>
+            <p><i>*es importante tener en cuenta que "RAHIP Estudio Creativo" es, precisamente, un estudio. Esto
+                significa
+                que nos
+                dedicamos a la
+                concreción y desarrollo de forma profesional de los diseños que usted requiere. Los precios finales, no
+                incluyen
+                impresiones ni material físico. Se le puede facilitar
+                el material físico de requerirlo pero el mismo se adjuntará con la factura correspondiente de la gráfica
+                en
+                cuestión.</i></p>
+          </section>
+
+          <section class="contact-section">
+            <h2><b>RESPONSABILIDAD DEL CLIENTE</b></h2>
+            <p><i>*las respuestas que usted está por enviar son de crucial importancia para el desarrollo de su
+                proyecto.
+                En base a ellas
+                se verá
+                reflejado el proyecto a desarrollar, si usted incluyó información errónea o se equivocó al tipear dichas
+                respuestas
+                queda bajo su responsabilidad misma, por lo tanto
+                le recomendamos que llegado este punto controle sus respuestas ya que su proyecto reflejará las
+                respuestas
+                que usted
+                brindó. Por lo tanto, al momento de tocar la
+                opción "Enviar" este acuerdo queda asumido como tal, por parte de usted como cliente, y nuestro en
+                cuanto
+                al
+                plazo de
+                entrega mencionado en sus respectivos espacios.</i></p>
+          </section>
+          <div class="contact-form-loader text-center none">
+            <img src="/rahip-web/assets/multimedia/loader.svg" alt="Enviando...">
+          </div>
+          <input class="btn" type="submit" value="ENVIAR MENSAJE">
+          <article id="gracias" class="modal">
+            <div class="modal-content">
+              <div class="article contact-form-response">
+                <h3>
+                  ¡Muchas Gracias!
+                  <br>
+                  Pronto nos pondremos en contacto.
+                </h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+                  <path
+                    d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+                  <path
+                    d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+                </svg>
+              </div>
+            </div>
+          </article>
+        </form>
+      </section>
+    </div>
+  </section>
+  </section>
+  <!-- Brief Section End -->
+  <!-- Portfolio Section Start -->
+  <section class="portfolio section" id="portafolio">
+    <div class="container">
+      <h2 class="section-title">MIS TRABAJOS</h2>
+      <a href="#trabajo-1" class="portfolio-card">
+        <img src="/rahip-web/assets/multimedia/Encanto-make-up.jpg" alt="Trabajo 1">
+        <aside class="portfolio-card-info">
+          <div>
+            <h3>Encanto MakeUp</h3>
+            <p>
+              Es un microemprendimiento que surge en la provinicia de Mendoza con la propuesta de vender todo tipo de
+              cosméticos de alto nivel por medio de las redes sociales, con entrega a domicilio.
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="#trabajo-2" class="portfolio-card">
+        <img src="/rahip-web/assets/multimedia/Lucas-dupoux-drums.jpg" alt="Trabajo 2">
+        <aside class="portfolio-card-info">
+          <div>
+            <h3> Lucas Dupoux Drums</h3>
+            <p>
+              Lucas Dupoux es un baterista de la provinicia de Mendoza, músico de multiples bandas y profesor de
+              percusión. Asi es, que pretendemos contar esta nueva
+              historia hecha diseño con el objetivo de tener en cuenta esos dos conceptos, la música y la enseñanza.
+            </p>
+          </div>
+        </aside>
+      </a>
+      <a href="#trabajo-3" class="portfolio-card">
+        <img src="/rahip-web/assets/multimedia/nicolas-pellegrini.jpg" alt="Trabajo 3">
+        <aside class="portfolio-card-info">
+          <div>
+            <h3> Nicolas Pellegrini Personal Trainer</h3>
+            <p>
+              Nicolas Pellegrini Personal Trainer es precisamente un perparador y entrenador físico que se desempeña en
+              la provincia de Mendoza. El mismo posee un circuito ya predefinido en su domicilio con el que entrena a
+              sus
+              alumnos.
+            </p>
+          </div>
+        </aside>
+      </a>
+      <article class="modal" id="trabajo-1">
+        <div class="modal-content">
+          <a href="#cerrar" class="modal-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+            </svg>
+          </a>
+          <article class="portfolio-modal">
+            <img src="/rahip-web/assets/multimedia/makeup.jpg" alt="Trabajo 1">
+            <div class="portfolio-info">
+              <h3>Encanto Make Up</h3>
+              <p>El mismo esta encabezado por dos adolescentes que pretenden desenvolverse en el mundo laboral. El
+                proyecto
+                de marca que nos presentaron fue un diseño elaborado con la plataforma <i>Canvas</i>, pero previo a
+                lanzarse
+                al medio notaron que muchas otras empresas utilizaban la misma plantilla para identificar su
+                emprendimiento.
+                Es por esto que deciden elaborar una identidad de marca propia.</p>
+              <aside class="portfolio-details">
+                <small><b>CLIENTE:</b></small>
+                <small>Encanto MakeUp</small>
+                <small><b>FECHA:</b></small>
+                <small>1/04/2022</small>
+                <small><b>TIPO:</b></small>
+                <small>Diseño</small>
+                <small><b>ENLACE:</b></small>
+                <small><a href=https://www.behance.net/gallery/140757325/Encanto-Make-Up target="_blank"
+                    rel="noopener">Encanto MakeUp - Behance </a></small>
+              </aside>
+            </div>
+          </article>
+        </div>
+      </article>
+      <article class="modal" id="trabajo-2">
+        <div class="modal-content">
+          <a href="#cerrar" class="modal-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+            </svg>
+          </a>
+          <article class="portfolio-modal">
+            <img src="/rahip-web/assets/multimedia/lucas.jpg" alt="Trabajo 2">
+            <div class="portfolio-info">
+              <h3>Lucas Dupoux Drums</h3>
+              <p>Buscamos la semejanza que existía entre la música y estos dos conceptos y lo encontramos en lo que se
+                conoce como <i>"desiveles"</i>, por eso a la hora de representar la banda lo definimos como desiveles
+                altos,
+                donde la música suena. Mientras que a la hora de dictar clases (de forma totalmente subjetiva)
+                representamos
+                el desivel del silencio o nulo para graficar dicha labor.</p>
+              <aside class="portfolio-details">
+                <small><b>CLIENTE:</b></small>
+                <small>Lucas Dupoux Drums</small>
+                <small><b>FECHA:</b></small>
+                <small>1/04/2022</small>
+                <small><b>TIPO:</b></small>
+                <small>Diseño</small>
+                <small><b>ENLACE:</b></small>
+                <small><a href="https://www.behance.net/gallery/140757643/Lucas-Dupoux-Drums" target="_blank"
+                    rel="noopener">Lucas Dupoux Drums - Behance</a></small>
+              </aside>
+            </div>
+          </article>
+        </div>
+      </article>
+      <article class="modal" id="trabajo-3">
+        <div class="modal-content">
+          <a href="#cerrar" class="modal-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+            </svg>
+          </a>
+          <article class="portfolio-modal">
+            <img src="/rahip-web/assets/multimedia/nicolas.jpg" alt="Trabajo 3">
+            <div class="portfolio-info">
+              <h3>Nicolas Pellegrini Personal Trainer</h3>
+              <p>La propuesta que le planteamos fue modificar el recorrido dentro de este circuito que se
+                desarrollaba en el patio de su casa y más allá que lso ejercicios puedan variar a lo largo del mismo, si
+                uno
+                mira desde el cielo el recorrido se dibuja la inicial de su nombre y pro ende el nombre de su
+                emprendimiento, la letra "N".</p>
+              <aside class="portfolio-details">
+                <small><b>CLIENTE:</b></small>
+                <small>Nicolas Pellegrini</small>
+                <small><b>FECHA:</b></small>
+                <small>01/04/2022</small>
+                <small><b>TIPO:</b></small>
+                <small>Diseño</small>
+                <small><b>ENLACE:</b></small>
+                <small><a href="https://www.behance.net/gallery/140757813/Nicolas-Pellegrini-Personal-Trainer"
+                    target="_blank" rel="noopener">Nicolas Pellegrini - Behance</a></small>
+              </aside>
+            </div>
+          </article>
+        </div>
+    </div>
+    </article>
+    </div>
+  </section>
+  <!-- Portfolio Section End -->
+  <!-- Calificanos Section Start -->
+  <section class="calificanos section" id="calificanos">
+    <div class="container">
+      <section class="contact-form2">
+        <section class="contact-header">
+          <h2>CALIFICANOS</h2>
+          <p class="header-p"><i>*sección exclusiva para clientes de la empresa</i></p>
+          <form target="_blank" class="contact-form">
+            <input type="text" name="Nombre" placeholder="Ingresa tu nombre..."
+              title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <input type="number" name="DNI" placeholder="DNI (Solo numeros sin puntos ni espacios)"
+              title="DNI incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+              required>
+            <input type="text" name="Nombre de la empresa" placeholder="Nombre de la empresa"
+              title="El nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+            <section class="contact-section">
+              <p>Ingresa en un valor del uno (1) al diez (10) que tan satisfecho estás con el servicio, resultado y
+                atencion brindada por la empresa.</p>
+            </section>
+            <input type="number" name="Numero del 1 al 10" placeholder="Numero del 1 al 10" title="Numero incorrecto"
+              pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+            <section class="contact-section">
+              <p>Desarrollar el motivo de su previa elección. Su aporte es de mucha ayuda</p>
+            </section>
+            <textarea name="Comentarios de su previa eleccion" cols="50" rows="10"
+              placeholder="Dejame tus comentarios..." required></textarea>
+            <section class="contact-section">
+              <p>Si usted fuese el dueño de la empresa ¿qué cree que modificaría, que agregaría, o que suprimiría en
+                vista de mejorar la misma?</p>
+            </section>
+            <textarea name="¿Que modificaria o agregaria en vista de mejorar?" cols="50" rows="10"
+              placeholder="Suegrencia..." required></textarea>
+            <div class="contact-form-loader2 none">
+              <img src="/rahip-web/assets/multimedia/loader.svg" alt="Enviando...">
+            </div>
+            <input class="btn" type="submit" value="ENVIAR MENSAJE">
+            <article id="gracias" class="modal">
+              <div class="modal-content">
+                <div class="article contact-form-response2">
+                  <h3>
+                    ¡Muchas Gracias!
+                    <br>
+                    Por tus comentarios
+                  </h3>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+                    <path
+                      d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+                    <path
+                      d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+                  </svg>
+                </div>
+              </div>
+            </article>
+          </form>
+        </section>
+    </div>
+  </section>
+  <!-- Calificanos Section End -->
+  <!-- ===== Style Switcher Start ===== -->
+  <div class="style-switcher">
+    <div class="day-night s-icon">
+      <i class="fas fa-moon"></i>
+    </div>
+  </div>
+  <!-- ===== Style Switcher End ===== -->
   <script src="scripts/script.js" type="module"></script>
+
 
 </body>
 
