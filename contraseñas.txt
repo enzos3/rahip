@@ -1,0 +1,2 @@
+apertura		rahipestudio.cv
+edicion			rahipestudio.cv.edicion

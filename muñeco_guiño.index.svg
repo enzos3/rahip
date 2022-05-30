@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 372.6 738.5" style="enable-background:new 0 0 372.6 738.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E04F28;}
+	.st1{fill:#CC4729;}
+	.st2{fill:#E7E6E6;}
+	.st3{fill:#1D1D1B;}
+	.st4{clip-path:url(#SVGID_2_);}
+	.st5{fill:#E26927;}
+</style>
+<g>
+	<g id="Capa_1_1_">
+		<g>
+			<g>
+				<polygon class="st0" points="1.1,286.2 372.6,286.2 315.9,738.5 57.5,738.5 				"/>
+				<polygon class="st1" points="1.1,286.2 60.8,248.1 311.8,248.1 372.6,286.2 				"/>
+				<polygon class="st1" points="151.4,3.4 186.3,73.2 186.3,143.1 151.4,213 81.5,213 46.6,143.1 46.6,73.2 81.5,3.4 				"/>
+				<polygon class="st2" points="148.7,11.3 181,75.9 181,140.5 148.7,205 84.2,205 51.9,140.5 51.9,75.9 84.2,11.3 				"/>
+				<polygon class="st3" points="103.4,69 90.3,95.1 90.3,121.2 103.4,147.3 129.5,147.3 142.5,121.2 142.5,95.1 129.5,69 				"/>
+				<polygon class="st1" points="291.1,0 326,69.9 326,139.7 291.1,209.6 221.2,209.6 186.3,139.7 186.3,69.9 221.2,0 				"/>
+				<g>
+					<defs>
+						<polygon id="SVGID_1_" points="291.1,0 326,69.9 326,139.7 291.1,209.6 221.2,209.6 186.3,139.7 186.3,69.9 221.2,0 						"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st4">
+						<path class="st5" d="M328.5,148.4c-1.4,0-2.6-0.9-3-2.1l-30.9-71.5c-1.9-4.4-6.2-7.2-11-7.2h-54.9c-4.8,0-9.1,2.9-11,7.2
+							l-30.9,71.6c-0.6,1.6-2.4,2.4-4.1,1.8c-1.2-0.5-2-1.6-2-2.9v-0.7L212,72.2c2.9-6.7,9.5-11,16.8-11h54.8
+							c7.3,0,13.9,4.3,16.8,11l31.2,72.3v0.6C331.7,146.9,330.3,148.4,328.5,148.4C328.5,148.4,328.5,148.4,328.5,148.4z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
