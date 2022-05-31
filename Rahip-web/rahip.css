@@ -466,6 +466,16 @@ p {
   background-color: var(--first-color);
 }
 
+.nav img {
+  margin: 0;
+  width: 5rem;
+  height: 1.5rem;
+}
+
+.nav img:hover {
+  color: var(--second-alpha-color);
+}
+
 @media screen and (min-width: 1024px) {
   .menu-btn {
     display: none;
@@ -540,16 +550,11 @@ p {
   overflow: hidden;
 }
 
-.home-index-title h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 2rem;
-}
-
 .image-item {
-  width: 20vw;
+  width: 30vw;
   position: absolute;
-  left: 10rem;
+  left: 18rem;
+  top: 10rem;
 }
 
 .image-item {
@@ -565,6 +570,8 @@ p {
   width: 20vw;
   position: relative;
   left: 50vw;
+  top: 7rem;
+  bottom: 0;
 }
 
 .image-logo img {
@@ -873,6 +880,11 @@ p {
   align-items: center;
 }
 
+.contact-form p {
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
 .contact-form2 {
   display: flex;
   flex-direction: column;
@@ -959,10 +971,16 @@ textarea:focus {
     font-size: 1rem;
   }
 
+  .nav img {
+    height: 1rem;
+    padding: 0;
+    margin-left: -2rem;
+  }
+
   .image-item {
     margin-top: 2rem;
-    width: 10rem;
-    left: 35vw;
+    width: 15rem;
+    left: 22vw;
   }
 
   .image-logo {
