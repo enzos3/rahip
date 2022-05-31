@@ -891,6 +891,10 @@ p {
   color: var(--second-alpha-color);
 }
 
+.contact-form input::placeholder {
+  color: var(--black-alpha-color);
+}
+
 .contact-form h3 {
   padding-left: 1rem;
   border-bottom: 1px solid var(--first-alpha-color);
@@ -911,7 +915,7 @@ textarea {
 }
 
 .contact-form textarea::placeholder {
-  color: var(--text-color);
+  color: var(--black-alpha-color);
 }
 
 .contact-form input:focus,
@@ -921,6 +925,10 @@ textarea:focus {
 
 .contact-form input:active {
   background: none;
+}
+
+.btn {
+  color: var(--black-color);
 }
 
 .btn:hover {
