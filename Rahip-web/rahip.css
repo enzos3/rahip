@@ -142,7 +142,7 @@ p {
 
 .card {
   color: var(--third-color);
-  background-image: url(/assets/multimedia/img_campamento/campamento.01.jpg);
+  background-image: url(assets/multimedia/img_campamento/campamento.01.jpg);
   background-size: cover;
   padding: 20rem 0 0;
   top: 10rem;
