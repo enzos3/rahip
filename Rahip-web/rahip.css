@@ -303,6 +303,7 @@ p {
 .contact-form textarea {
   font-size: 0.85rem;
   font-family: var(--font);
+  color: var(--black-color);
 }
 
 .contact-form input {

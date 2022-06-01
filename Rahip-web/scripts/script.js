@@ -124,10 +124,9 @@ function updateNav(element) {
       body: new FormData(e.target),
     })
       .then((res) => (res.ok ? res.json() : Promise.reject(res)))
-      .then((json) => {
-        console.log(json);
+      .then(() => {
         $form.reset();
-        location.hash = "#gracias";
+        location.hash = "#gracias2";
       })
       .catch((err) => {
         let message =
