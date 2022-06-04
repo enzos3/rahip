@@ -361,6 +361,12 @@ p {
   fill: var(--first-alpha-color);
 }
 
+.contact-form-loader,
+.contact-form-loader2 {
+  display: flex;
+  justify-content: center;
+}
+
 .modal#gracias:target {
   opacity: 1;
   pointer-events: auto;
@@ -945,6 +951,25 @@ textarea:focus {
 
 .contact-form input:active {
   background: none;
+}
+
+.contact-form-response {
+  padding: 1rem;
+  width: 400px;
+  text-align: center;
+  background-color: var(--second-color);
+}
+
+.contact-form-response svg {
+  margin-top: 2rem;
+  width: 4rem;
+  height: 4rem;
+  fill: var(--first-alpha-color);
+}
+
+.modal#gracias:target {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .btn {

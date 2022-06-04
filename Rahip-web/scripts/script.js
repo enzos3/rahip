@@ -59,21 +59,6 @@ function updateNav(element) {
   }
 }
 
-// const navTogglerBtn = document.querySelector(".nav-toggler"),
-//   aside = document.querySelector(".aside");
-
-// navTogglerBtn.addEventListener("click", () => {
-//   asideSectionTogglerBtn();
-// });
-
-// function asideSectionTogglerBtn() {
-//   aside.classList.toggle("open");
-//   navTogglerBtn.classList.toggle("open");
-//   for (let i = 0; i < totalSection; i++) {
-//     allSection[i].classList.toggle("open");
-//   }
-// }
-
 /* ************** ContactForm ************ */
 
 ((d) => {
@@ -90,9 +75,7 @@ function updateNav(element) {
     })
       .then((res) => (res.ok ? res.json() : Promise.reject(res)))
       .then((json) => {
-        console.log(json);
         location.hash = "#gracias";
-        $form.reset();
       })
       .catch((err) => {
         let message =
@@ -125,7 +108,6 @@ function updateNav(element) {
     })
       .then((res) => (res.ok ? res.json() : Promise.reject(res)))
       .then(() => {
-        $form.reset();
         location.hash = "#gracias2";
       })
       .catch((err) => {
@@ -142,7 +124,6 @@ function updateNav(element) {
         }, 3000);
       });
   });
-  console.log($form);
 })(document);
 
 const alternateStyles = document.querySelectorAll(".alternate-style");
