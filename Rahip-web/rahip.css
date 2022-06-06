@@ -788,6 +788,53 @@ p {
   color: var(--title-color);
 }
 
+.portfolio-img {
+  opacity: 0.7;
+  transition: 250ms ease;
+}
+
+.portfolio-more-letter:hover {
+  opacity: 1;
+  color: var(--white-color);
+  background: var(--first-alpha-color);
+}
+
+.portfolio-more-letter:hover h3 {
+  opacity: 1;
+  color: var(--second-color);
+}
+
+.portfolio-more-letter:hover p {
+  opacity: 1;
+  transition-delay: 500ms;
+}
+
+.portfolio-more-letter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  transition: 500ms ease;
+}
+
+.portfolio-more-letter h3 {
+  opacity: 0;
+  text-align: center;
+  margin-top: 6.5rem;
+  font-size: 3rem;
+  color: var(--white-color);
+  transition: 500ms ease;
+}
+
+.portfolio-more-letter p {
+  opacity: 0;
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
 .service-card {
   margin: 1rem auto;
   padding: 1rem;
@@ -1135,51 +1182,4 @@ textarea:focus {
 .footer a:hover {
   transform: scale(1.5);
   color: var(--footer-color);
-}
-
-.portfolio-img {
-  opacity: 0.7;
-  transition: 250ms ease;
-}
-
-.portfolio-more-letter:hover {
-  opacity: 1;
-  color: var(--white-color);
-  background: var(--first-alpha-color);
-}
-
-.portfolio-more-letter:hover h3 {
-  opacity: 1;
-  color: var(--second-color);
-}
-
-.portfolio-more-letter:hover p {
-  opacity: 1;
-  transition-delay: 500ms;
-}
-
-.portfolio-more-letter {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  transition: 500ms ease;
-}
-
-.portfolio-more-letter h3 {
-  opacity: 0;
-  text-align: center;
-  margin-top: 6.5rem;
-  font-size: 3rem;
-  color: var(--white-color);
-  transition: 500ms ease;
-}
-
-.portfolio-more-letter p {
-  opacity: 0;
-  text-align: center;
-  margin-top: 0;
-  font-size: 1.2rem;
-  color: var(--white-color);
 }
